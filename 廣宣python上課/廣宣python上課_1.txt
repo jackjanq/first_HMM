@@ -1,0 +1,955 @@
+﻿Microsoft Windows [版本 10.0.16299.98]
+(c) 2017 Microsoft Corporation. 著作權所有，並保留一切權利。
+
+C:\Users\jackjanq>python
+Python 3.6.2 |Anaconda, Inc.| (default, Sep 19 2017, 08:03:39) [MSC v.1900 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+>>> 1+2
+3
+>>> print("Hello")
+Hello
+>>> exit()
+
+C:\Users\jackjanq>dir
+ 磁碟區 C 中的磁碟沒有標籤。
+ 磁碟區序號:  3235-BF73
+
+ C:\Users\jackjanq 的目錄
+
+2017/12/03  下午 10:50    <DIR>          .
+2017/12/03  下午 10:50    <DIR>          ..
+2017/10/13  下午 03:44    <DIR>          .anaconda
+2017/11/19  下午 09:03    <DIR>          .astropy
+2017/10/13  下午 09:20    <DIR>          .conda
+2017/10/13  下午 03:45                43 .condarc
+2017/01/20  上午 07:45    <DIR>          .IdeaIC2016.3
+2017/09/11  下午 08:34    <DIR>          .idlerc
+2017/12/04  上午 03:45    <DIR>          .matplotlib
+2017/11/19  下午 08:56    <DIR>          .PyCharmCE2017.2
+2017/12/03  下午 10:50    <DIR>          3D Objects
+2017/12/09  上午 09:20    <DIR>          Anaconda3
+2017/10/13  下午 03:50    <DIR>          AnacondaProjects
+2017/12/03  下午 10:50    <DIR>          Contacts
+2017/12/03  下午 10:50    <DIR>          Desktop
+2017/09/17  下午 03:35    <DIR>          django
+2017/12/03  下午 10:50    <DIR>          Documents
+2017/12/06  下午 09:06    <DIR>          Downloads
+2017/12/03  下午 10:50    <DIR>          Favorites
+2017/12/08  下午 04:00    <DIR>          Links
+2017/12/03  下午 10:50    <DIR>          Music
+2017/12/08  下午 04:00    <DIR>          OneDrive
+2017/12/03  下午 10:50    <DIR>          Pictures
+2017/11/19  下午 09:14    <DIR>          PycharmProjects
+2017/12/03  下午 10:50    <DIR>          Saved Games
+2017/12/03  下午 10:50    <DIR>          Searches
+2017/12/03  下午 10:50    <DIR>          Videos
+2017/09/12  上午 01:57    <DIR>          新增資料夾
+               1 個檔案              43 位元組
+              27 個目錄  145,799,659,520 位元組可用
+
+C:\Users\jackjanq>cd \
+
+C:\>dir
+ 磁碟區 C 中的磁碟沒有標籤。
+ 磁碟區序號:  3235-BF73
+
+ C:\ 的目錄
+
+2017/09/01  上午 08:38    <DIR>          djangogirls
+2017/07/03  下午 07:25    <DIR>          Intel
+2017/08/25  上午 10:58    <DIR>          key
+2017/07/03  下午 05:29    <DIR>          multicharts
+2017/12/03  下午 10:38    <DIR>          PerfLogs
+2017/12/03  下午 10:41    <DIR>          Program Files
+2017/12/03  下午 10:41    <DIR>          Program Files (x86)
+2017/10/27  下午 07:09    <DIR>          project
+2017/07/01  下午 09:45    <DIR>          PTA
+2017/12/03  下午 06:07    <DIR>          python3
+2017/12/09  上午 09:19    <DIR>          Python練習
+2017/04/04  上午 09:53    <DIR>          sony攝影
+2017/12/03  下午 10:44    <DIR>          Users
+2017/12/06  下午 09:00    <DIR>          Windows
+2017/12/03  下午 10:50    <DIR>          Windows.old
+2017/10/29  下午 12:02    <DIR>          Yuanta
+2017/11/08  下午 10:03    <DIR>          動態網頁
+2017/04/10  上午 03:02    <DIR>          日本北陸拱型新幹線之旅
+               0 個檔案               0 位元組
+              18 個目錄  145,797,091,328 位元組可用
+
+C:\>cd Python練習
+
+C:\Python練習>dir
+ 磁碟區 C 中的磁碟沒有標籤。
+ 磁碟區序號:  3235-BF73
+
+ C:\Python練習 的目錄
+
+2017/12/09  上午 09:19    <DIR>          .
+2017/12/09  上午 09:19    <DIR>          ..
+2017/12/03  下午 10:55    <DIR>          examples-in-python-master
+2017/12/03  下午 06:19    <DIR>          FistProject
+2017/12/04  上午 03:31    <DIR>          KNNregressor
+2017/12/09  上午 09:20    <DIR>          廣宣python上課
+               0 個檔案               0 位元組
+               6 個目錄  145,797,091,328 位元組可用
+
+C:\Python練習>cd 廣宣python上課
+
+C:\Python練習\廣宣python上課>dir
+ 磁碟區 C 中的磁碟沒有標籤。
+ 磁碟區序號:  3235-BF73
+
+ C:\Python練習\廣宣python上課 的目錄
+
+2017/12/09  上午 09:20    <DIR>          .
+2017/12/09  上午 09:20    <DIR>          ..
+2017/12/09  上午 09:24    <DIR>          .idea
+2017/12/09  上午 09:20                 0 course1.py
+               1 個檔案               0 位元組
+               3 個目錄  145,797,091,328 位元組可用
+
+C:\Python練習\廣宣python上課>python
+Python 3.6.2 |Anaconda, Inc.| (default, Sep 19 2017, 08:03:39) [MSC v.1900 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+>>> type
+<class 'type'>
+>>> 1+(3.14159*99)
+312.01741
+>>> type
+<class 'type'>
+>>> a=1+(3.14159*88)
+>>> a
+277.45992
+>>> type(a)
+<class 'float'>
+>>> a=3
+>>> b=5
+>>> a**=b > b**=a
+  File "<stdin>", line 1
+    a**=b > b**=a
+               ^
+SyntaxError: invalid syntax
+>>> a**=b >>b**=a
+  File "<stdin>", line 1
+    a**=b >>b**=a
+               ^
+SyntaxError: invalid syntax
+>>> A=3**=5
+  File "<stdin>", line 1
+    A=3**=5
+         ^
+SyntaxError: invalid syntax
+>>> 3**=5
+  File "<stdin>", line 1
+SyntaxError: can't assign to literal
+>>> a=3
+>>> b=5
+>>> a**=b
+>>> a
+243
+>>> c=5
+>>> d=3
+>>> c**=d
+>>> c > d
+True
+>>> dir (a)
+['__abs__', '__add__', '__and__', '__bool__', '__ceil__', '__class__', '__delattr__', '__dir__', '__divmod__', '__doc__', '__eq__', '__float__', '__floor__', '__floordiv__', '__format__', '__ge__', '__getattribute__', '__getnewargs__', '__gt__', '__hash__', '__index__', '__init__', '__init_subclass__', '__int__', '__invert__', '__le__', '__lshift__', '__lt__', '__mod__', '__mul__', '__ne__', '__neg__', '__new__', '__or__', '__pos__', '__pow__', '__radd__', '__rand__', '__rdivmod__', '__reduce__', '__reduce_ex__', '__repr__', '__rfloordiv__', '__rlshift__', '__rmod__', '__rmul__', '__ror__', '__round__', '__rpow__', '__rrshift__', '__rshift__', '__rsub__', '__rtruediv__', '__rxor__', '__setattr__', '__sizeof__', '__str__', '__sub__', '__subclasshook__', '__truediv__', '__trunc__', '__xor__', 'bit_length', 'conjugate', 'denominator', 'from_bytes', 'imag', 'numerator', 'real', 'to_bytes']
+>>> list[1,2,3,4,5,6,7}
+  File "<stdin>", line 1
+    list[1,2,3,4,5,6,7}
+                      ^
+SyntaxError: invalid syntax
+>>> list =[2,3,4,5,6,7]
+>>> list
+[2, 3, 4, 5, 6, 7]
+>>> list[0]
+2
+>>> list.length()
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+AttributeError: 'list' object has no attribute 'length'
+>>> manu = {'time' : dinne, 'course' : beef,'wine' : suvverion,'desert' :馬卡龍}
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'dinne' is not defined
+>>> manu = {'time' : 'dinne','cours':'beef','wine':'suvveron','desert' :'馬卡龍'}
+>>> for key in manu.keys():
+... print(key)
+  File "<stdin>", line 2
+    print(key)
+        ^
+IndentationError: expected an indented block
+>>> for key in manu.keys():
+... print (key)
+  File "<stdin>", line 2
+    print (key)
+        ^
+IndentationError: expected an indented block
+>>> for key in manu.keys():
+...     print(key)
+...
+time
+cours
+wine
+desert
+>>>
+>>> x = 10
+>>> if x <= 0 :
+...     print("x <= 0 ")
+... elif x <= 5:
+...     print("0 < x <= 5")
+... elif x <= 10:
+...     print("5 < x <= 10")
+... else:
+...     print("x > 10")
+...
+5 < x <= 10
+>>> for b in range(1,9,2):
+...     if b%2 == 0:
+...         print(b)
+...
+>>> for b in range(1,9):
+...     if b%2 == 0:
+...         print (b)
+...
+2
+4
+6
+8
+>>> exit()
+
+C:\Python練習\廣宣python上課>python
+Python 3.6.2 |Anaconda, Inc.| (default, Sep 19 2017, 08:03:39) [MSC v.1900 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+>>> exit()
+
+C:\Python練習\廣宣python上課>dir
+ 磁碟區 C 中的磁碟沒有標籤。
+ 磁碟區序號:  3235-BF73
+
+ C:\Python練習\廣宣python上課 的目錄
+
+2017/12/09  下午 02:06    <DIR>          .
+2017/12/09  下午 02:06    <DIR>          ..
+2017/12/09  下午 01:29    <DIR>          .idea
+2017/12/09  上午 09:20                 0 course1.py
+2017/12/09  下午 02:06                79 test-module.py
+               2 個檔案              79 位元組
+               3 個目錄  145,783,513,088 位元組可用
+
+C:\Python練習\廣宣python上課>type test-module.py
+def sum_bm(a, b):
+    return a + b
+
+def multiply_bm(a, b):
+    return a * b
+C:\Python練習\廣宣python上課>python
+Python 3.6.2 |Anaconda, Inc.| (default, Sep 19 2017, 08:03:39) [MSC v.1900 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+>>> import test-modul
+  File "<stdin>", line 1
+    import test-modul
+               ^
+SyntaxError: invalid syntax
+>>> import test_modul
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+ModuleNotFoundError: No module named 'test_modul'
+>>> import test_module
+>>> test_module.sum_bm(4,9)
+13
+>>> exit()
+
+C:\Python練習\廣宣python上課>dir
+ 磁碟區 C 中的磁碟沒有標籤。
+ 磁碟區序號:  3235-BF73
+
+ C:\Python練習\廣宣python上課 的目錄
+
+2017/12/09  下午 02:09    <DIR>          .
+2017/12/09  下午 02:09    <DIR>          ..
+2017/12/09  下午 01:29    <DIR>          .idea
+2017/12/09  上午 09:20                 0 course1.py
+2017/12/09  下午 02:06                79 test-module.py
+2017/12/09  下午 02:08                79 test_module.py
+2017/12/09  下午 02:09    <DIR>          __pycache__
+               3 個檔案             158 位元組
+               4 個目錄  145,781,592,064 位元組可用
+
+C:\Python練習\廣宣python上課>python test1
+python: can't open file 'test1': [Errno 2] No such file or directory
+
+C:\Python練習\廣宣python上課>python test1.py
+  File "test1.py", line 3
+SyntaxError: Non-UTF-8 code starting with '\xae' in file test1.py on line 3, but no encoding declared; see http://python.org/dev/peps/pep-0263/ for details
+
+C:\Python練習\廣宣python上課>python test1.py
+  File "test1.py", line 3
+SyntaxError: Non-UTF-8 code starting with '\xae' in file test1.py on line 3, but no encoding declared; see http://python.org/dev/peps/pep-0263/ for details
+
+C:\Python練習\廣宣python上課>python test1.py
+8
+
+C:\Python練習\廣宣python上課>python test2.py
+10
+
+C:\Python練習\廣宣python上課>python
+Python 3.6.2 |Anaconda, Inc.| (default, Sep 19 2017, 08:03:39) [MSC v.1900 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+>>> dir (test_module)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'test_module' is not defined
+>>> dir (test_module.py)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'test_module' is not defined
+>>> import this
+The Zen of Python, by Tim Peters
+
+Beautiful is better than ugly.
+Explicit is better than implicit.
+Simple is better than complex.
+Complex is better than complicated.
+Flat is better than nested.
+Sparse is better than dense.
+Readability counts.
+Special cases aren't special enough to break the rules.
+Although practicality beats purity.
+Errors should never pass silently.
+Unless explicitly silenced.
+In the face of ambiguity, refuse the temptation to guess.
+There should be one-- and preferably only one --obvious way to do it.
+Although that way may not be obvious at first unless you're Dutch.
+Now is better than never.
+Although never is often better than *right* now.
+If the implementation is hard to explain, it's a bad idea.
+If the implementation is easy to explain, it may be a good idea.
+Namespaces are one honking great idea -- let's do more of those!
+>>> import sys
+>>> help(sys)
+Help on built-in module sys:
+
+NAME
+    sys
+
+MODULE REFERENCE
+    https://docs.python.org/3.6/library/sys
+
+    The following documentation is automatically generated from the Python
+    source files.  It may be incomplete, incorrect or include features that
+    are considered implementation detail and may vary between Python
+    implementations.  When in doubt, consult the module reference at the
+    location listed above.
+
+DESCRIPTION
+    This module provides access to some objects used or maintained by the
+    interpreter and to functions that interact strongly with the interpreter.
+
+    Dynamic objects:
+
+    argv -- command line arguments; argv[0] is the script pathname if known
+    path -- module search path; path[0] is the script directory, else ''
+    modules -- dictionary of loaded modules
+
+    displayhook -- called to show results in an interactive session
+    excepthook -- called to handle any uncaught exception other than SystemExit
+      To customize printing in an interactive session or to install a custom
+      top-level exception handler, assign other functions to replace these.
+
+    stdin -- standard input file object; used by input()
+    stdout -- standard output file object; used by print()
+    stderr -- standard error object; used for error messages
+      By assigning other file objects (or objects that behave like files)
+      to these, it is possible to redirect all of the interpreter's I/O.
+
+    last_type -- type of last uncaught exception
+    last_value -- value of last uncaught exception
+    last_traceback -- traceback of last uncaught exception
+      These three are only available in an interactive session after a
+      traceback has been printed.
+
+    Static objects:
+
+    builtin_module_names -- tuple of module names built into this interpreter
+    copyright -- copyright notice pertaining to this interpreter
+    exec_prefix -- prefix used to find the machine-specific Python library
+    executable -- absolute path of the executable binary of the Python interpreter
+    float_info -- a struct sequence with information about the float implementation.
+    float_repr_style -- string indicating the style of repr() output for floats
+    hash_info -- a struct sequence with information about the hash algorithm.
+    hexversion -- version information encoded as a single integer
+    implementation -- Python implementation information.
+    int_info -- a struct sequence with information about the int implementation.
+    maxsize -- the largest supported length of containers.
+    maxunicode -- the value of the largest Unicode code point
+    platform -- platform identifier
+    prefix -- prefix used to find the Python library
+    thread_info -- a struct sequence with information about the thread implementation.
+    version -- the version of this interpreter as a string
+    version_info -- version information as a named tuple
+    dllhandle -- [Windows only] integer handle of the Python DLL
+    winver -- [Windows only] version number of the Python DLL
+    _enablelegacywindowsfsencoding -- [Windows only]
+    __stdin__ -- the original stdin; don't touch!
+    __stdout__ -- the original stdout; don't touch!
+    __stderr__ -- the original stderr; don't touch!
+    __displayhook__ -- the original displayhook; don't touch!
+    __excepthook__ -- the original excepthook; don't touch!
+
+    Functions:
+
+    displayhook() -- print an object to the screen, and save it in builtins._
+    excepthook() -- print an exception and its traceback to sys.stderr
+    exc_info() -- return thread-safe information about the current exception
+    exit() -- exit the interpreter by raising SystemExit
+    getdlopenflags() -- returns flags to be used for dlopen() calls
+    getprofile() -- get the global profiling function
+    getrefcount() -- return the reference count for an object (plus one :-)
+    getrecursionlimit() -- return the max recursion depth for the interpreter
+    getsizeof() -- return the size of an object in bytes
+    gettrace() -- get the global debug tracing function
+    setcheckinterval() -- control how often the interpreter checks for events
+    setdlopenflags() -- set the flags to be used for dlopen() calls
+    setprofile() -- set the global profiling function
+    setrecursionlimit() -- set the max recursion depth for the interpreter
+    settrace() -- set the global debug tracing function
+
+FUNCTIONS
+    __displayhook__ = displayhook(...)
+        displayhook(object) -> None
+
+        Print an object to sys.stdout and also save it in builtins._
+
+    __excepthook__ = excepthook(...)
+        excepthook(exctype, value, traceback) -> None
+
+        Handle an exception by displaying it with a traceback on sys.stderr.
+
+    call_tracing(...)
+        call_tracing(func, args) -> object
+
+        Call func(*args), while tracing is enabled.  The tracing state is
+        saved, and restored afterwards.  This is intended to be called from
+        a debugger from a checkpoint, to recursively debug some other code.
+
+    callstats(...)
+        callstats() -> tuple of integers
+
+        Return a tuple of function call statistics, if CALL_PROFILE was defined
+        when Python was built.  Otherwise, return None.
+
+        When enabled, this function returns detailed, implementation-specific
+        details about the number of function calls executed. The return value is
+        a 11-tuple where the entries in the tuple are counts of:
+        0. all function calls
+        1. calls to PyFunction_Type objects
+        2. PyFunction calls that do not create an argument tuple
+        3. PyFunction calls that do not create an argument tuple
+           and bypass PyEval_EvalCodeEx()
+        4. PyMethod calls
+        5. PyMethod calls on bound methods
+        6. PyType calls
+        7. PyCFunction calls
+        8. generator calls
+        9. All other calls
+        10. Number of stack pops performed by call_function()
+
+    displayhook(...)
+        displayhook(object) -> None
+
+        Print an object to sys.stdout and also save it in builtins._
+
+    exc_info(...)
+        exc_info() -> (type, value, traceback)
+
+        Return information about the most recent exception caught by an except
+        clause in the current stack frame or in an older stack frame.
+
+    excepthook(...)
+        excepthook(exctype, value, traceback) -> None
+
+        Handle an exception by displaying it with a traceback on sys.stderr.
+
+    exit(...)
+        exit([status])
+
+        Exit the interpreter by raising SystemExit(status).
+        If the status is omitted or None, it defaults to zero (i.e., success).
+        If the status is an integer, it will be used as the system exit status.
+        If it is another kind of object, it will be printed and the system
+        exit status will be one (i.e., failure).
+
+    get_asyncgen_hooks(...)
+        get_asyncgen_hooks()
+
+        Return a namedtuple of installed asynchronous generators hooks (firstiter, finalizer).
+
+    get_coroutine_wrapper(...)
+        get_coroutine_wrapper()
+
+        Return the wrapper for coroutine objects set by sys.set_coroutine_wrapper.
+
+    getallocatedblocks(...)
+        getallocatedblocks() -> integer
+
+        Return the number of memory blocks currently allocated, regardless of their
+        size.
+
+    getcheckinterval(...)
+        getcheckinterval() -> current check interval; see setcheckinterval().
+
+    getdefaultencoding(...)
+        getdefaultencoding() -> string
+
+        Return the current default string encoding used by the Unicode
+        implementation.
+
+    getfilesystemencodeerrors(...)
+        getfilesystemencodeerrors() -> string
+
+        Return the error mode used to convert Unicode filenames in
+        operating system filenames.
+
+    getfilesystemencoding(...)
+        getfilesystemencoding() -> string
+
+        Return the encoding used to convert Unicode filenames in
+        operating system filenames.
+
+    getprofile(...)
+        getprofile()
+
+        Return the profiling function set with sys.setprofile.
+        See the profiler chapter in the library manual.
+
+    getrecursionlimit(...)
+        getrecursionlimit()
+
+        Return the current value of the recursion limit, the maximum depth
+        of the Python interpreter stack.  This limit prevents infinite
+        recursion from causing an overflow of the C stack and crashing Python.
+
+    getrefcount(...)
+        getrefcount(object) -> integer
+
+        Return the reference count of object.  The count returned is generally
+        one higher than you might expect, because it includes the (temporary)
+        reference as an argument to getrefcount().
+
+    getsizeof(...)
+        getsizeof(object, default) -> int
+
+        Return the size of object in bytes.
+
+    getswitchinterval(...)
+        getswitchinterval() -> current thread switch interval; see setswitchinterval().
+
+    gettrace(...)
+        gettrace()
+
+        Return the global debug tracing function set with sys.settrace.
+        See the debugger chapter in the library manual.
+
+    getwindowsversion(...)
+        getwindowsversion()
+
+        Return information about the running version of Windows as a named tuple.
+        The members are named: major, minor, build, platform, service_pack,
+        service_pack_major, service_pack_minor, suite_mask, and product_type. For
+        backward compatibility, only the first 5 items are available by indexing.
+        All elements are numbers, except service_pack and platform_type which are
+        strings, and platform_version which is a 3-tuple. Platform is always 2.
+        Product_type may be 1 for a workstation, 2 for a domain controller, 3 for a
+        server. Platform_version is a 3-tuple containing a version number that is
+        intended for identifying the OS rather than feature detection.
+
+    intern(...)
+        intern(string) -> string
+
+        ``Intern'' the given string.  This enters the string in the (global)
+        table of interned strings whose purpose is to speed up dictionary lookups.
+        Return the string itself or the previously interned string object with the
+        same value.
+
+    is_finalizing(...)
+        is_finalizing()
+        Return True if Python is exiting.
+
+    set_asyncgen_hooks(...)
+        set_asyncgen_hooks(*, firstiter=None, finalizer=None)
+
+        Set a finalizer for async generators objects.
+
+    set_coroutine_wrapper(...)
+        set_coroutine_wrapper(wrapper)
+
+        Set a wrapper for coroutine objects.
+
+    setcheckinterval(...)
+        setcheckinterval(n)
+
+        Tell the Python interpreter to check for asynchronous events every
+        n instructions.  This also affects how often thread switches occur.
+
+    setprofile(...)
+        setprofile(function)
+
+        Set the profiling function.  It will be called on each function call
+        and return.  See the profiler chapter in the library manual.
+
+    setrecursionlimit(...)
+        setrecursionlimit(n)
+
+        Set the maximum depth of the Python interpreter stack to n.  This
+        limit prevents infinite recursion from causing an overflow of the C
+        stack and crashing Python.  The highest possible limit is platform-
+        dependent.
+
+    setswitchinterval(...)
+        setswitchinterval(n)
+
+        Set the ideal thread switching delay inside the Python interpreter
+        The actual frequency of switching threads can be lower if the
+        interpreter executes long sequences of uninterruptible code
+        (this is implementation-specific and workload-dependent).
+
+        The parameter must represent the desired switching delay in seconds
+        A typical value is 0.005 (5 milliseconds).
+
+    settrace(...)
+        settrace(function)
+
+        Set the global debug tracing function.  It will be called on each
+        function call.  See the debugger chapter in the library manual.
+
+DATA
+    __stderr__ = <_io.TextIOWrapper name='<stderr>' mode='w' encoding='utf...
+    __stdin__ = <_io.TextIOWrapper name='<stdin>' mode='r' encoding='utf-8...
+    __stdout__ = <_io.TextIOWrapper name='<stdout>' mode='w' encoding='utf...
+    api_version = 1013
+    argv = ['']
+    base_exec_prefix = r'C:\Users\jackjanq\Anaconda3'
+    base_prefix = r'C:\Users\jackjanq\Anaconda3'
+    builtin_module_names = ('_ast', '_bisect', '_blake2', '_codecs', '_cod...
+    byteorder = 'little'
+    copyright = 'Copyright (c) 2001-2017 Python Software Foundati...ematis...
+    dllhandle = 1674117120
+    dont_write_bytecode = False
+    exec_prefix = r'C:\Users\jackjanq\Anaconda3'
+    executable = r'C:\Users\jackjanq\Anaconda3\python.exe'
+    flags = sys.flags(debug=0, inspect=0, interactive=0, opt...ing=0, quie...
+    float_info = sys.float_info(max=1.7976931348623157e+308, max_...epsilo...
+    float_repr_style = 'short'
+    hash_info = sys.hash_info(width=64, modulus=2305843009213693...iphash2...
+    hexversion = 50725616
+    implementation = namespace(cache_tag='cpython-36', hexversion=507...in...
+    int_info = sys.int_info(bits_per_digit=30, sizeof_digit=4)
+    last_value = NameError("name 'test_module' is not defined",)
+    maxsize = 9223372036854775807
+    maxunicode = 1114111
+    meta_path = [<class '_frozen_importlib.BuiltinImporter'>, <class '_fro...
+    modules = {'__main__': <module '__main__' (built-in)>, '_ast': <module...
+    path = ['', r'C:\Users\jackjanq\Anaconda3\python36.zip', r'C:\Users\ja...
+    path_hooks = [<class 'zipimport.zipimporter'>, <function FileFinder.pa...
+    path_importer_cache = {r'C:\Python練習\廣宣python上課': FileFinder('C:\\Pyth...
+    platform = 'win32'
+    prefix = r'C:\Users\jackjanq\Anaconda3'
+    ps1 = '>>> '
+    ps2 = '... '
+    stderr = <_io.TextIOWrapper name='<stderr>' mode='w' encoding='utf-8'>
+    stdin = <_io.TextIOWrapper name='<stdin>' mode='r' encoding='utf-8'>
+    stdout = <_io.TextIOWrapper name='<stdout>' mode='w' encoding='utf-8'>
+    thread_info = sys.thread_info(name='nt', lock=None, version=None)
+    version = '3.6.2 |Anaconda, Inc.| (default, Sep 19 2017, 08:03:39) [MS...
+    version_info = sys.version_info(major=3, minor=6, micro=2, releaseleve...
+    warnoptions = []
+    winver = '3.6'
+
+FILE
+    (built-in)
+
+
+>>> pip3
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'pip3' is not defined
+>>> exit()
+
+C:\Python練習\廣宣python上課>pip3
+
+Usage:
+  pip <command> [options]
+
+Commands:
+  install                     Install packages.
+  download                    Download packages.
+  uninstall                   Uninstall packages.
+  freeze                      Output installed packages in requirements format.
+  list                        List installed packages.
+  show                        Show information about installed packages.
+  check                       Verify installed packages have compatible dependencies.
+  search                      Search PyPI for packages.
+  wheel                       Build wheels from your requirements.
+  hash                        Compute hashes of package archives.
+  completion                  A helper command used for command completion.
+  help                        Show help for commands.
+
+General Options:
+  -h, --help                  Show help.
+  --isolated                  Run pip in an isolated mode, ignoring
+                              environment variables and user configuration.
+  -v, --verbose               Give more output. Option is additive, and can be
+                              used up to 3 times.
+  -V, --version               Show version and exit.
+  -q, --quiet                 Give less output. Option is additive, and can be
+                              used up to 3 times (corresponding to WARNING,
+                              ERROR, and CRITICAL logging levels).
+  --log <path>                Path to a verbose appending log.
+  --proxy <proxy>             Specify a proxy in the form
+                              [user:passwd@]proxy.server:port.
+  --retries <retries>         Maximum number of retries each connection should
+                              attempt (default 5 times).
+  --timeout <sec>             Set the socket timeout (default 15 seconds).
+  --exists-action <action>    Default action when a path already exists:
+                              (s)witch, (i)gnore, (w)ipe, (b)ackup, (a)bort.
+  --trusted-host <hostname>   Mark this host as trusted, even though it does
+                              not have valid or any HTTPS.
+  --cert <path>               Path to alternate CA bundle.
+  --client-cert <path>        Path to SSL client certificate, a single file
+                              containing the private key and the certificate
+                              in PEM format.
+  --cache-dir <dir>           Store the cache data in <dir>.
+  --no-cache-dir              Disable the cache.
+  --disable-pip-version-check
+                              Don't periodically check PyPI to determine
+                              whether a new version of pip is available for
+                              download. Implied with --no-index.
+
+C:\Python練習\廣宣python上課>pip3 list
+DEPRECATION: The default format will switch to columns in the future. You can use --format=(legacy|columns) (or define a format=(legacy|columns) in your pip.conf under the [list] section) to disable this warning.
+bottle (0.12.13)
+certifi (2017.7.27.1)
+chardet (3.0.4)
+click (6.7)
+Flask (0.12.2)
+idna (2.6)
+itsdangerous (0.24)
+Jinja2 (2.9.6)
+MarkupSafe (1.0)
+pip (9.0.1)
+requests (2.18.4)
+setuptools (28.8.0)
+urllib3 (1.22)
+virtualenv (15.1.0)
+Werkzeug (0.12.2)
+
+C:\Python練習\廣宣python上課>pip3 install jieba
+Collecting jieba
+  Downloading jieba-0.39.zip (7.3MB)
+    100% |████████████████████████████████| 7.3MB 39kB/s
+Installing collected packages: jieba
+  Running setup.py install for jieba ... done
+Successfully installed jieba-0.39
+
+C:\Python練習\廣宣python上課>pip3 install gTTs
+Collecting gTTs
+  Downloading gTTS-1.2.2.tar.gz
+Collecting six (from gTTs)
+  Downloading six-1.11.0-py2.py3-none-any.whl
+Requirement already satisfied: requests in c:\python3\lib\site-packages (from gTTs)
+Collecting gtts_token (from gTTs)
+  Downloading gTTS-token-1.1.1.zip
+Requirement already satisfied: chardet<3.1.0,>=3.0.2 in c:\python3\lib\site-packages (from requests->gTTs)
+Requirement already satisfied: urllib3<1.23,>=1.21.1 in c:\python3\lib\site-packages (from requests->gTTs)
+Requirement already satisfied: certifi>=2017.4.17 in c:\python3\lib\site-packages (from requests->gTTs)
+Requirement already satisfied: idna<2.7,>=2.5 in c:\python3\lib\site-packages (from requests->gTTs)
+Installing collected packages: six, gtts-token, gTTs
+  Running setup.py install for gtts-token ... done
+  Running setup.py install for gTTs ... done
+Successfully installed gTTs-1.2.2 gtts-token-1.1.1 six-1.11.0
+
+C:\Python練習\廣宣python上課>python test3.py
+Traceback (most recent call last):
+  File "test3.py", line 1, in <module>
+    from gtts import gTTS
+ModuleNotFoundError: No module named 'gtts'
+
+C:\Python練習\廣宣python上課>python test3.py
+Traceback (most recent call last):
+  File "test3.py", line 1, in <module>
+    import gTTS
+ModuleNotFoundError: No module named 'gTTS'
+
+C:\Python練習\廣宣python上課>python test3.py
+Traceback (most recent call last):
+  File "test3.py", line 1, in <module>
+    import gTTs
+ModuleNotFoundError: No module named 'gTTs'
+
+C:\Python練習\廣宣python上課>pip3 install requests
+Requirement already satisfied: requests in c:\python3\lib\site-packages
+Requirement already satisfied: urllib3<1.23,>=1.21.1 in c:\python3\lib\site-packages (from requests)
+Requirement already satisfied: certifi>=2017.4.17 in c:\python3\lib\site-packages (from requests)
+Requirement already satisfied: chardet<3.1.0,>=3.0.2 in c:\python3\lib\site-packages (from requests)
+Requirement already satisfied: idna<2.7,>=2.5 in c:\python3\lib\site-packages (from requests)
+
+C:\Python練習\廣宣python上課>python
+Python 3.6.2 |Anaconda, Inc.| (default, Sep 19 2017, 08:03:39) [MSC v.1900 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+>>> import requests
+>>> exit()
+
+C:\Python練習\廣宣python上課>pip3 install bs4
+Collecting bs4
+  Downloading bs4-0.0.1.tar.gz
+Collecting beautifulsoup4 (from bs4)
+  Downloading beautifulsoup4-4.6.0-py3-none-any.whl (86kB)
+    100% |████████████████████████████████| 92kB 451kB/s
+Installing collected packages: beautifulsoup4, bs4
+  Running setup.py install for bs4 ... done
+Successfully installed beautifulsoup4-4.6.0 bs4-0.0.1
+
+C:\Python練習\廣宣python上課>python
+Python 3.6.2 |Anaconda, Inc.| (default, Sep 19 2017, 08:03:39) [MSC v.1900 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+>>> import requests
+>>> exit
+Use exit() or Ctrl-Z plus Return to exit
+>>> exit()
+
+C:\Python練習\廣宣python上課>python exampl.py
+python: can't open file 'exampl.py': [Errno 2] No such file or directory
+
+C:\Python練習\廣宣python上課>dir
+ 磁碟區 C 中的磁碟沒有標籤。
+ 磁碟區序號:  3235-BF73
+
+ C:\Python練習\廣宣python上課 的目錄
+
+2017/12/09  下午 04:07    <DIR>          .
+2017/12/09  下午 04:07    <DIR>          ..
+2017/12/09  下午 01:29    <DIR>          .idea
+2017/12/09  上午 09:20                 0 course1.py
+2017/12/09  下午 04:07               734 examp1.py
+2017/12/09  下午 02:06                79 test-module.py
+2017/12/09  下午 02:22                73 test1.py
+2017/12/09  下午 02:24                75 test2.py
+2017/12/09  下午 03:18               111 test3.py
+2017/12/09  下午 02:08                79 test_module.py
+2017/12/09  下午 02:09    <DIR>          __pycache__
+               7 個檔案           1,151 位元組
+               4 個目錄  145,705,443,328 位元組可用
+
+C:\Python練習\廣宣python上課>python example_1.py
+  File "example_1.py", line 10
+SyntaxError: Non-UTF-8 code starting with '\xbf' in file example_1.py on line 10, but no encoding declared; see http://python.org/dev/peps/pep-0263/ for details
+
+C:\Python練習\廣宣python上課>python example_1.py
+15:59消防隊員休假參加宴會後酒駕 撞傷高中老師肇逃被逮
+15:55洪秀柱批民進黨「去中」 要不要學日本節目脫到剩內褲
+15:54蘇貞昌盼新北市民支持吳秉叡 不談侯友宜
+15:53王毅談朝鮮半島：動武的選擇絕不可接受
+15:523D列印夾娃娃機、廢柴耶誕樹 台南限時開放體驗打卡
+15:50咖啡中的物理化學 彰化女中讓學科變好玩
+15:49黃偉哲談柯文哲：政治素人從政後很快就表現得不像素人
+15:49王惕吾紀念獎學金 王文杉勉勵得獎學生讓台灣更好
+15:47上千高中職生路跑闖關轉大人鄭文燦：成年是一種約定
+
+C:\Python練習\廣宣python上課>python example_2.py
+Time[15:59]: 消防隊員休假參加宴會後酒駕 撞傷高中老師肇逃被逮
+Time[15:55]: 洪秀柱批民進黨「去中」 要不要學日本節目脫到剩內褲
+Time[15:54]: 蘇貞昌盼新北市民支持吳秉叡 不談侯友宜
+Time[15:53]: 王毅談朝鮮半島：動武的選擇絕不可接受
+Time[15:52]: 3D列印夾娃娃機、廢柴耶誕樹 台南限時開放體驗打卡
+Time[15:50]: 咖啡中的物理化學 彰化女中讓學科變好玩
+Time[15:49]: 黃偉哲談柯文哲：政治素人從政後很快就表現得不像素人
+Time[15:49]: 王惕吾紀念獎學金 王文杉勉勵得獎學生讓台灣更好
+Time[15:47]: 上千高中職生路跑闖關轉大人鄭文燦：成年是一種約定
+
+C:\Python練習\廣宣python上課>
+C:\Python練習\廣宣python上課>
+C:\Python練習\廣宣python上課>
+C:\Python練習\廣宣python上課>pip3 install gtts
+Requirement already satisfied: gtts in c:\python3\lib\site-packages
+Requirement already satisfied: six in c:\python3\lib\site-packages (from gtts)
+Requirement already satisfied: requests in c:\python3\lib\site-packages (from gtts)
+Requirement already satisfied: gtts_token in c:\python3\lib\site-packages (from gtts)
+Requirement already satisfied: urllib3<1.23,>=1.21.1 in c:\python3\lib\site-packages (from requests->gtts)
+Requirement already satisfied: chardet<3.1.0,>=3.0.2 in c:\python3\lib\site-packages (from requests->gtts)
+Requirement already satisfied: idna<2.7,>=2.5 in c:\python3\lib\site-packages (from requests->gtts)
+Requirement already satisfied: certifi>=2017.4.17 in c:\python3\lib\site-packages (from requests->gtts)
+
+C:\Python練習\廣宣python上課>python test3.py
+Traceback (most recent call last):
+  File "test3.py", line 1, in <module>
+    import gTTs
+ModuleNotFoundError: No module named 'gTTs'
+
+C:\Python練習\廣宣python上課>dir
+ 磁碟區 C 中的磁碟沒有標籤。
+ 磁碟區序號:  3235-BF73
+
+ C:\Python練習\廣宣python上課 的目錄
+
+2017/12/09  下午 04:12    <DIR>          .
+2017/12/09  下午 04:12    <DIR>          ..
+2017/12/09  下午 01:29    <DIR>          .idea
+2017/12/09  上午 09:20                 0 course1.py
+2017/12/09  下午 04:07               734 examp1.py
+2017/12/09  下午 04:10               759 example_1.py
+2017/12/09  下午 04:12               977 example_2.py
+2017/12/09  下午 02:06                79 test-module.py
+2017/12/09  下午 02:22                73 test1.py
+2017/12/09  下午 02:24                75 test2.py
+2017/12/09  下午 03:18               111 test3.py
+2017/12/09  下午 02:08                79 test_module.py
+2017/12/09  下午 02:09    <DIR>          __pycache__
+               9 個檔案           2,887 位元組
+               4 個目錄  145,704,419,328 位元組可用
+
+C:\Python練習\廣宣python上課>python test3.py
+Traceback (most recent call last):
+  File "test3.py", line 1, in <module>
+    ﻿from gtts import gTTS
+ModuleNotFoundError: No module named 'gtts'
+
+C:\Python練習\廣宣python上課>pip3 install gTTS
+Requirement already satisfied: gTTS in c:\python3\lib\site-packages
+Requirement already satisfied: six in c:\python3\lib\site-packages (from gTTS)
+Requirement already satisfied: requests in c:\python3\lib\site-packages (from gTTS)
+Requirement already satisfied: gtts_token in c:\python3\lib\site-packages (from gTTS)
+Requirement already satisfied: chardet<3.1.0,>=3.0.2 in c:\python3\lib\site-packages (from requests->gTTS)
+Requirement already satisfied: idna<2.7,>=2.5 in c:\python3\lib\site-packages (from requests->gTTS)
+Requirement already satisfied: certifi>=2017.4.17 in c:\python3\lib\site-packages (from requests->gTTS)
+Requirement already satisfied: urllib3<1.23,>=1.21.1 in c:\python3\lib\site-packages (from requests->gTTS)
+
+C:\Python練習\廣宣python上課>python test3.py
+Traceback (most recent call last):
+  File "test3.py", line 1, in <module>
+    ﻿from gtts import gTTS
+ModuleNotFoundError: No module named 'gtts'
+
+C:\Python練習\廣宣python上課>pip3 install gtts
+Requirement already satisfied: gtts in c:\python3\lib\site-packages
+Requirement already satisfied: six in c:\python3\lib\site-packages (from gtts)
+Requirement already satisfied: requests in c:\python3\lib\site-packages (from gtts)
+Requirement already satisfied: gtts_token in c:\python3\lib\site-packages (from gtts)
+Requirement already satisfied: certifi>=2017.4.17 in c:\python3\lib\site-packages (from requests->gtts)
+Requirement already satisfied: chardet<3.1.0,>=3.0.2 in c:\python3\lib\site-packages (from requests->gtts)
+Requirement already satisfied: idna<2.7,>=2.5 in c:\python3\lib\site-packages (from requests->gtts)
+Requirement already satisfied: urllib3<1.23,>=1.21.1 in c:\python3\lib\site-packages (from requests->gtts)
+
+C:\Python練習\廣宣python上課>python test3.py
+Traceback (most recent call last):
+  File "test3.py", line 1, in <module>
+    ﻿from gtts import gTTS
+ModuleNotFoundError: No module named 'gtts'
+
+C:\Python練習\廣宣python上課>python example_3.py
+Traceback (most recent call last):
+  File "example_3.py", line 4, in <module>
+    from gtts import gTTS
+ModuleNotFoundError: No module named 'gtts'
+
+C:\Python練習\廣宣python上課>
